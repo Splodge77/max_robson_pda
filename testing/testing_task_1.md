@@ -21,24 +21,24 @@ class CardGame
     end
   end
 
-  def highest_card(card1, card2) # missing comma
-    # typo, was dif highest_card
-    if card1.value > card2.value
-      return card1
-      # card does not have 'name' attribute
-    else
-      return card2
-      # else needs explicit return
-    end
+  dif highest_card(card1 card2) # missing comma
+  # typo, was dif highest_card
+  if card1.value > card2.value
+    return card.name
+    # card does not have 'name' attribute
+  else
+    card2
+    # else needs explicit return
   end
-  # end was in the wrong place
+end
+end
+# end was in the wrong place
 
-  def self.cards_total(cards)
-    total = 0 # total needs to start with a value
-    for card in cards
-      total += card.value
-      return "You have a total of" + total
-    end
+def self.cards_total(cards)
+  total # total needs to start with a value
+  for card in cards
+    total += card.value
+    return "You have a total of" + total
   end
 end
 
